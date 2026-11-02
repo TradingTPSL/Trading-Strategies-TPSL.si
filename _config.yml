@@ -6,3 +6,7 @@ theme: jekyll-theme-cayman
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+exclude:
+  - LICENSE
+  - .gitignore
+  - tools/__pycache__
