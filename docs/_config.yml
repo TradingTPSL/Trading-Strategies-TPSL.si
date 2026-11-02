@@ -1,0 +1,8 @@
+title: Gold (XAUUSD) trading strategy backtests
+description: Backtested gold trading strategy with exact rules, honest results and a free prop challenge simulator.
+url: https://tradingtpsl.github.io
+baseurl: /Trading-Strategies-TPSL.si
+theme: jekyll-theme-cayman
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
