@@ -1,0 +1,35 @@
+{
+  "name": "London breakout (classic)",
+  "market": "XAUUSD",
+  "candles": "1m",
+  "time_zone": "Europe/Athens",
+  "days": ["Mon", "Tue", "Wed", "Thu", "Fri"],
+  "range": {
+    "from": "03:00",
+    "to": "08:00",
+    "skip_if_under_pct_of_price": 0.3,
+    "skip_if_over_pct_of_price": 1.6
+  },
+  "entry": {
+    "at": "08:00",
+    "orders": "buy stop above the range high, sell stop below the range low",
+    "distance_beyond_range_price": 0.2,
+    "first_fill_cancels_the_other": true
+  },
+  "stop": {
+    "place": "the other side of the range",
+    "max_pct_of_price": 0.6
+  },
+  "target_r": 2.5,
+  "move_stop_to_entry_at_r": 1.5,
+  "close_all_at": "21:00",
+  "max_trades_per_day": 1,
+  "assumed_costs": {
+    "spread": "from each candle",
+    "commission_per_trade": 0.07,
+    "slippage_on_entry": 0.05,
+    "slippage_on_stop": 0.1,
+    "multiplier_near_news": 3
+  },
+  "disclaimer": "Hypothetical backtest. Past results do not predict future results. Not financial advice."
+}
