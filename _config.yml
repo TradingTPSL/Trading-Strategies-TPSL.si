@@ -10,3 +10,9 @@ exclude:
   - LICENSE
   - .gitignore
   - tools/__pycache__
+tagline: "London breakout rules, honest results and a prop challenge simulator"
+defaults:
+  - scope:
+      path: "strategies/london-breakout-classic.md"
+    values:
+      description: "London breakout strategy for gold (XAUUSD): exact rules, assumed costs, month by month results, the four losing months and a 3-step prop challenge test."
